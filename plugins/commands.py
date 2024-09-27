@@ -170,7 +170,7 @@ async def start(client, message):
                 protect_content=settings['file_secure'],
                 reply_markup=InlineKeyboardMarkup(btn)
             )
-            asyncio.create_task(delayed_delete(client, sent_message, 600)
+            asyncio.create_task(delayed_delete(client, sent_message, 600))
         await message.reply("<b>This file will be deleted after 10 min so please forward it in your saved messages.</b>")                                   
         return
 
