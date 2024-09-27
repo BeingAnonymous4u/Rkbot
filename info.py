@@ -76,26 +76,26 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+ef_l9L7eBEU5ODJl')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/hdhindibackup')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+bEarHRzuylxjMTk1')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/hdhindibackup/76")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hdhindibackup/76")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
+DELETE_TIME = int(environ.get('DELETE_TIME', 600)) # Add time in seconds 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language 
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "onepagelink.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "f646357aa129cfbd7eb59bcba428096ab54ca950")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "zipshort.net")
+SHORTLINK_API = environ.get("SHORTLINK_API", "4fc248c97d58d8cfdade494ba704020c0e13949b")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 STICKERS_IDS = (
-    "CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME CAACAgQAAxkBAAELqxll8CcG-MZx9mIOXgaHSzLc9uyxswACaxQAAlrdEVOJDG3cIZuWLzQE"
+    "CAACAgQAAxkBAAICc2Zpb6x4N2RwML7NlHxsTFbtp0m5AAJ2EAACePlwUiaOFmvHqNmrHgQ CAACAgQAAxkBAAICa2ZpbvlqlpQ7MdP_g8e66UAU00BeAALAEgACc6jQUXbOyPWIXrVFHgQ"
 ).split()
 
 # boolean settings 
